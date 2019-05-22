@@ -1,0 +1,38 @@
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:gravity="center"
+  android:orientation="vertical"
+  android:background="#000"
+  tools:context="com.vitovalov.MyActivity"
+  >
+
+
+
+  <com.github.lzyzsd.circleprogress.AngularChartView
+    android:id="@+id/arc_progress2"
+    android:layout_width="330dp"
+    android:layout_height="200dp"
+    app:progress1="10"
+    app:progress2="-10"
+    app:angle="220"
+    app:text_size="14dp"
+    android:background="#fff"
+    app:stroke_width="30dp"/>
+
+  <com.github.lzyzsd.circleprogress.AngularChartView
+    android:layout_marginTop="20dp"
+    android:id="@+id/activity_chart2"
+    android:layout_width="330dp"
+    android:layout_height="200dp"
+    app:progress1="135"
+    app:progress2="145"
+    app:orientation="false"
+    app:text_size="14dp"
+    android:background="#fff"
+    app:stroke_width="30dp"
+    />
+</LinearLayout>
