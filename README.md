@@ -1,4 +1,4 @@
-
+![Preview](https://raw.githubusercontent.com/vitovalov/Circlular-Arc-Progress-Animation-View/master/Preview.gif)
 
 inspired from
 [https://github.com/lzyzsd/CircleProgress](https://github.com/lzyzsd/CircleProgress)
